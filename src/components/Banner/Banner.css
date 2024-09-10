@@ -1,0 +1,49 @@
+.banner-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: var(--custom-width);
+  margin: 50px auto;
+  padding: 20px 0px;
+}
+
+.banner-wrapper .content-wrapper h1 {
+  color: var(--secondary-clr);
+  margin-bottom: 20px;
+}
+
+.banner-wrapper .content-wrapper p {
+  color: var(--text-clr);
+  margin-bottom: 20px;
+}
+
+.banner-wrapper .img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-wrapper .img-wrapper img {
+  width: 70%;
+}
+
+.banner-wrapper .content-wrapper,
+.banner-wrapper .img-wrapper {
+  width: 60%;
+}
+
+.banner-wrapper .content-wrapper {
+  width: 40%;
+}
+
+.rotateFlex {
+  flex-direction: row-reverse;
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}

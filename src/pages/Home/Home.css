@@ -1,0 +1,6 @@
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  width: var(--custom-width);
+  margin: 0 auto;
+}

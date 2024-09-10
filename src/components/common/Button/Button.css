@@ -1,0 +1,29 @@
+.btn-wrapper button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--primary-clr);
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--secondary-clr);
+  border: 1px solid transparent;
+  transition: 0.3s ease;
+}
+
+.btn-wrapper button:hover {
+  border: 1px solid var(--primary-clr);
+  color: var(--primary-clr);
+  background-color: var(--white-clr);
+  transition: 0.3s ease;
+}
+
+.btn-wrapper button i {
+  font-size: 18px;
+  line-height: 0;
+}

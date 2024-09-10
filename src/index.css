@@ -1,0 +1,15 @@
+:root {
+  --primary-clr: #f5903d;
+  --primary-light-clr: #f8b47d;
+  --secondary-clr: #282725;
+  --text-clr: #5d5b56;
+  --white-clr: #ffffff;
+  --custom-width: 80%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
